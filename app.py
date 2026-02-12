@@ -4,7 +4,7 @@ from engine import ProjectDifficultyEngine
 
 st.set_page_config(
     page_title="Next Era Unitech's Checker",
-    page_icon="logo small.png",   # You can use emoji OR image path
+    page_icon="logo_small.png",   # You can use emoji OR image path
     layout="centered"
 )
 
