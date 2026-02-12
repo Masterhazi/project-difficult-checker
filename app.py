@@ -8,6 +8,12 @@ st.set_page_config(
     layout="centered"
 )
 
+st.markdown("""
+<meta property="og:title" content="Next Era Unitech - AI Project Difficulty Checker">
+<meta property="og:description" content="Hybrid Semantic + Structural AI model to evaluate ML project complexity.">
+""", unsafe_allow_html=True)
+
+
 st.image("logo.png", width=350)
 st.title("Project Difficulty Checker ")
 st.caption("Built with ❤️ using Sentence Transformers & Hybrid ML Architecture")
